@@ -114,6 +114,8 @@ struct NewGuestView: View {
                     
                     // Input field for guests shopping history
                     HStack {
+                        Text("Guest Shopping History")
+                            .padding()
                         MultiDatePicker("Select Shopping History", selection: $dates)
                     }
                     
